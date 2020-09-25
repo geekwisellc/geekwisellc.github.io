@@ -12,3 +12,7 @@ body {
    
     font-size: 150px;
   }
+  .btn.btn-outline-info.btn-lg{
+    position: relative;
+    float: left;
+  }
