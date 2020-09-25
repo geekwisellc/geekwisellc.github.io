@@ -1,0 +1,149 @@
+html, body 
+{ 
+    position:relative;
+    background-color: white;
+    max-width: 100%; 
+    margin: 0 auto !important; 
+    float: none !important; 
+    height: 100%;
+   
+    padding: 0;
+    z-index: -1; /* element with greater value sent to front */
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    
+}
+.contact{
+    margin-top: -23px;
+
+}
+.img
+{
+    position:static;
+    width:100%;
+    height: 375px;
+    z-index: 5;
+   
+  
+  
+ 
+}
+
+.label{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    
+}
+
+
+.navhead{
+    position: fixed;
+    background-color:white;
+    width: 100%;;
+    padding: 50px;
+    z-index: 2;   /* element with lesser value sent to back*/
+    
+ }
+ .nav-item, .nav-link,.nav.justify-content-center{
+     float: right;
+     color:black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+ }
+
+ a:hover{
+     background-color: silver;
+    
+ }
+
+ .navheader{
+     float: left;
+     margin-top: -2px;;
+     font-family: 'Trebuchet MS';
+     font-size: 33px;
+    text-align: center;
+    border-color:black;
+     border-style: solid;
+     border-right: 2px;
+     border-left: 2px;
+     border-top: 2px;;
+  
+     
+ 
+   
+ }
+ .subheader{
+     position:absolute;
+     margin-top: 35px;
+     margin-left: 38px;
+   
+     font-size: 8px;
+ }
+.card{
+    width: 100%;
+    background-color: white;
+}
+
+#container.b,h1.b {
+    position: relative;
+  text-align: center;
+    width: 100%;;
+    font-size: 48px;
+    z-index: 0;   /* element with lesser value sent to back*/
+    
+ }
+.p1{
+    position: relative;
+    margin-top: 155px;;
+    width: 100%;
+    padding-top: 500px;
+    z-index: -1;
+    background-color: silver;
+    text-align: center;
+}
+
+
+p.b, ul.b
+{
+font-size: 24px;
+font-weight: bolder;
+
+
+}
+.card-title
+{
+    font-size: large;
+}
+.card-text
+{
+    font-size: small;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  #footer
+  {
+      background-color: rgba(0, 0, 0, 0.925);
+  }
+  .footer
+  {
+      color: white;
+  }
+
+
+
+
+  
+
+
+  
+
+
+  

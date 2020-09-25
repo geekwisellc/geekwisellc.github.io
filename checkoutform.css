@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+    background-color:aliceblue;
+   
+  }
+  .icon-container{
+   margin-top: 199px;
+    text-align: center;
+    border: 2px;
+   
+    font-size: 150px;
+  }
