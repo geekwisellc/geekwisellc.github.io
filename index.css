@@ -101,7 +101,9 @@ html, body
     text-align: center;
 }
 
-
+.bi.bi-envelope-fill{
+    color: black;
+}
 
 /* Solid border */
 hr.solid {
