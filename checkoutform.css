@@ -74,7 +74,7 @@ body {
   }
   
   .btn {
-    background-color: #4CAF50;
+    background-color: gray;
     color:white;
     padding: 12px;
     margin: 10px 0;
@@ -84,8 +84,8 @@ body {
     cursor: pointer;
     font-size: 17px;
   }
-  .btn.btn-outline-primary:hover {
-  background-color:blueviolet;
+  .btn.btn-outline-light:hover {
+  background-color:gray;
  
   color: black;
 
