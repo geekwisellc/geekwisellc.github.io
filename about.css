@@ -1,0 +1,38 @@
+.body{
+    background-color: aliceblue;
+}
+.missioncard{
+    position: relative;
+    width: 75%;
+    margin-top: 55px;
+    margin-left: 155px;
+   
+    text-align: center;
+}
+.aboutcard{
+    position: relative;
+    width: 75%;
+    margin-top: 155px;
+    margin-left: 155px;
+   
+    text-align: center;
+ 
+}
+
+.surveycard{
+    position: relative;
+    width: 75%;
+    margin-top: 155px;
+    margin-left: 155px;
+  
+    text-align: center;
+    padding-bottom: 33px;
+ 
+}
+
+.card-text{
+    font-size: 24px;
+}
+.btn.btn-outline-primary{
+    border-radius: 23px;
+}
