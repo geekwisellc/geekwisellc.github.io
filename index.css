@@ -1,18 +1,16 @@
-
 html, body 
 { 
-    position: relative;
-    background-color: white;
+    position:relative;
+    background-color: rgb(240, 240, 240);
     max-width: 100%; 
     margin: 0 auto !important; 
     float: none !important; 
     height: 100%;
+   
     padding: 0;
     z-index: -1; /* element with greater value sent to front */
     font-family: Arial, Helvetica, sans-serif;
  
-   
-    
     
 }
 .bi.bi-headset{
@@ -23,12 +21,12 @@ html, body
 }
 .img
 {
-    position: relative;
-    
- 
+    position:static;
+    width:100%;
+    height: 100%;
     margin:0;
-    padding-top:-15px;
-    z-index: 1;
+    padding:0px;
+    z-index: 5;
    
   
   
@@ -37,7 +35,7 @@ html, body
 
 .label{
     position: absolute;
-    top: 68%;
+    top: 535px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 55px;
@@ -46,11 +44,11 @@ html, body
 
 
 .navhead{
-    position: static;
+    position: fixed;
     background-color:white;
     width: 100%;;
     padding: 50px;
-    z-index: 0;   /* element with lesser value sent to back*/
+    z-index: 2;   /* element with lesser value sent to back*/
     
  }
  .nav-item, .nav-link,.nav.justify-content-center{
@@ -60,11 +58,11 @@ html, body
    
 
  }
-
- a:hover{
-     background-color: silver;
-    
+ .nav-link:hover,.a:hover{
+     color:rgb(125, 125, 249);
  }
+
+
 
  .navheader{
      position: static;
@@ -90,26 +88,22 @@ html, body
    
      font-size: 8px;
  }
- .label{
-     position: relative;
-     margin-top: -525px;
-     text-align: center;
- }
 
 
 
 .p1{
     position: relative;
-    margin-top: 425px;;
+    margin-top: 90px;;
     width: 100%;
-  
-    z-index: 2;
-    background-color: silver;
+    padding-top: 20px;
+    z-index: 1;
+   
     text-align: center;
 }
 
 .bi.bi-envelope-fill{
     color: black;
+    margin-top: 122px;
 }
 
 /* Solid border */
@@ -123,16 +117,7 @@ hr.solid {
   }
  
 
-/* for all screens, use 14px font size */
-body {  
-    font-size: 14px;    
-}
-/* responsive, form small screens, use 13px font size */
-@media (max-width: 479px) {
-    body {
-        font-size: 13px;
-    }
-}
+
 
   
 
