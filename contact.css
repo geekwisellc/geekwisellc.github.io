@@ -1,47 +1,42 @@
-body {
-   
-
-    font-family: Arial;
-    font-size: 17px;
-    padding: 8px;
-
+* {
+  position: relative;
+  background-color: mintcream;
+  margin: 0, auto;
+  float: none;
+  max-width: 100%;
+  
 }
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    
+    width: 40%; /* Full width */
+    background-color:lightgrey;
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    border-radius: 24px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 16px; /* Add a top margin */
+    margin-left: 375px;
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
+  .message{
+    
+    margin-left: 375px;
+  }
   
   /* Style the submit button with a specific background color etc */
-  .btn.btn-outline-success {
-    background-color:gray;
-    color: white;
-    margin: 53px 455px 33px;
+  .btn.btn-outline-primary {
    
-    text-align: center;
-    border: none;
+    margin-top: 77px;
+   margin-left: 560px;
+  border-radius: 33px;
+   
+   
    
     cursor: pointer;
   }
 
-  .btn.btn-outline-light {
-   
-    background-color:gray;
-    color: black;
-    margin: 53px 455px 3px;
-   
-    text-align: center;
-    border: none;
-   
-    cursor: pointer;
-  }
+ 
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
@@ -50,14 +45,13 @@ body {
   }
   .contactheader{
       text-align: center;
+      font-weight: bold;
+     
   }
   
   /* Add a background color and some padding around the form */
-  .container {
-    background-color: #f2f2f2;  
-    width: 20%;
-    padding: 20px;
-    margin-top: 55px;
-  } 
+
+ 
+  }
 
  
