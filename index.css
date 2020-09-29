@@ -47,7 +47,7 @@ html, body
     position: relative;
     background-color:white;
     width: 100%;;
-    padding: 50px;
+    padding: 45px;
     z-index: 2;   /* element with lesser value sent to back*/
     
  }
@@ -68,6 +68,7 @@ html, body
      position: static;
      float: left;
      margin-top: -2px;;
+  
      font-family: 'Trebuchet MS';
      font-size: 33px;
     text-align: center;
