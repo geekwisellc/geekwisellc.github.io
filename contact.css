@@ -9,7 +9,7 @@
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
     width: 40%; /* Full width */
-    background-color:lightgrey;
+    background-color:white;
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 24px; /* Rounded borders */
@@ -25,17 +25,22 @@
   }
   
   /* Style the submit button with a specific background color etc */
-  .btn.btn-outline-primary {
-   
-    margin-top: 77px;
-   margin-left: 560px;
+  .btn.btn-outline-success {
+   width: 20%;
+    margin-top: -27px;
+   margin-left: 500px;
   border-radius: 33px;
    
    
    
     cursor: pointer;
   }
-
+  .btn.btn-outline-secondary{
+    width: 20%;
+    margin-top: 74px;
+    margin-left: -260px;
+    border-radius: 33px;
+  }
  
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -50,8 +55,10 @@
   }
   
   /* Add a background color and some padding around the form */
-
+.container{
+  background-color: lightgray;
+}
  
-  }
+ 
 
  
