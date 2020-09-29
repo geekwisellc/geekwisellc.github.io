@@ -27,7 +27,7 @@ html, body
     width: 75%;
     margin-top: 155px;
     margin-left: 155px;
-  
+   
     text-align: center;
     padding-bottom: 33px;
  
@@ -36,6 +36,9 @@ html, body
 .card-text{
     font-size: 24px;
 }
-.btn.btn-outline-primary{
+.btn.btn-outline-primary,.btn.btn-outline-primary:active .btn.btn-outline-primary:hover{
     border-radius: 23px;
+   
+   color:slateblue
+
 }
