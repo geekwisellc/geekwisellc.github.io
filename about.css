@@ -41,7 +41,7 @@ html, body
 .card-text{
     font-size: 24px;
 }
-.btn.btn-outline-dark,.btn.btn-outline-dark:active .btn.btn-outline-dark:hover{
+.btn.btn-outline-primary{
     border-radius: 23px;
    
    color:slateblue
