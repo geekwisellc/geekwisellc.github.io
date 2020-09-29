@@ -1,5 +1,8 @@
-.body{
-    background-color: aliceblue;
+html, body 
+*{ 
+  
+    background-color:rgb(240, 240, 240);
+   
 }
 .missioncard{
     position: relative;
