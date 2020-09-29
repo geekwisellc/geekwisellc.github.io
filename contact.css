@@ -1,13 +1,15 @@
 * {
-  position: relative;
+ position: relative;
   background-color: mintcream;
-  margin: 0, auto;
-  float: none;
+  margin: 0, auto !important;
+  float: none !important;
   max-width: 100%;
+  
   
 }
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
+  
     width: 40%; /* Full width */
     background-color:white;
     padding: 12px; /* Some padding */ 
@@ -26,6 +28,7 @@
   
   /* Style the submit button with a specific background color etc */
   .btn.btn-outline-success {
+  
    width: 20%;
     margin-top: -27px;
    margin-left: 500px;
@@ -36,6 +39,7 @@
     cursor: pointer;
   }
   .btn.btn-outline-secondary{
+   
     width: 20%;
     margin-top: 74px;
     margin-left: -260px;
