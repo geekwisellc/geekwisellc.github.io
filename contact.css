@@ -6,6 +6,7 @@
   max-width: 100%;
   
   
+  
 }
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
@@ -20,6 +21,7 @@
     margin-left: 375px;
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
   }
   .message{
     
@@ -63,6 +65,11 @@
   background-color: lightgray;
 }
  
- 
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .input[type=text], select, textarea {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 
  
