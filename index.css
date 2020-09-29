@@ -1,7 +1,7 @@
 html, body 
 { 
     position:relative;
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     max-width: 100%; 
     margin: 0 auto !important; 
     float: none !important; 
@@ -44,7 +44,7 @@ html, body
 
 
 .navhead{
-    position: fixed;
+    position: relative;
     background-color:white;
     width: 100%;;
     padding: 50px;
