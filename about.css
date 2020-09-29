@@ -4,22 +4,24 @@ html, body
     background-color:rgb(240, 240, 240);
    
 }
+.aboutcard{
+    position: relative;
+    width: 75%;
+    margin-top: 55px;
+    margin-left: 155px;
+    text-align: center;
+    color: silver;
+    
+}
+
 .missioncard{
     position: relative;
     width: 75%;
     margin-top: 55px;
     margin-left: 155px;
-   
     text-align: center;
-}
-.aboutcard{
-    position: relative;
-    width: 75%;
-    margin-top: 155px;
-    margin-left: 155px;
+    color: black;
    
-    text-align: center;
- 
 }
 
 .surveycard{
@@ -27,7 +29,7 @@ html, body
     width: 75%;
     margin-top: 155px;
     margin-left: 155px;
-   
+    color: silver;
     text-align: center;
     padding-bottom: 33px;
  
