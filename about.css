@@ -41,7 +41,7 @@ html, body
 .card-text{
     font-size: 24px;
 }
-.btn.btn-outline-secondary{
+.btn.btn-outline-secondary,.btn.btn-outline-success{
     border-radius: 23px;
    
 
