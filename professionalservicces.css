@@ -1,0 +1,29 @@
+body{
+    max-width: 100%;
+  box-sizing: border-box;
+    background-color: mintcream;
+
+}
+
+.servicesheader{
+    background-color: white;
+    font-weight: bolder;
+    text-align: center;
+    color: silver;
+    margin-top: 70px;
+    padding-top: 23px;
+}
+
+.carousel.slide {
+    float: right;
+    margin-right: 150px;
+    margin-top: 15px;
+    font-size: 12px;
+
+   
+    width: 75%;
+    height: 50%;
+    padding: 2px;
+   
+  
+  }
