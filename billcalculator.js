@@ -1,18 +1,27 @@
-document.querySelector('#tip-form').onchange = function(){
 
-    var bill = Number(document.getElementById('billTotal').value);
-    var tip = document.getElementById('tipInput').value;
-    document.getElementById('tipOutput').innerHTML = `${tip}%`;
-    var tipValue = bill * (tip/100)
-    var finalBill = bill + tipValue
-  console.log(finalBill)
-  var tipAmount = document.querySelector('#tipAmount')
-  var totalBillWithTip = document.querySelector('#totalBillWithTip')
-  
-  tipAmount.value = tipValue.toFixed(2);
-   totalBillWithTip.value =finalBill.toFixed(2);
-  
-   //Show Results
-  
-    document.getElementById('results').style.display='block'
-  }
+
+$(document).ready(function() {
+ 
+    $('.method').on('click', function() {
+      $('.method').removeClass('blue-border');
+      $(this).addClass('blue-border');
+    });
+   
+  })
+  var $cardInput = $('.input-fields input');
+ 
+$('.next-btn').on('click', function(e) {
+ 
+  $cardInput.removeClass('warning');
+ 
+  $cardInput.each(function() {    
+     var $this = $(this);
+     if (!$this.val()) {
+       $this.addClass('warning');
+     }
+  })
+});
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
