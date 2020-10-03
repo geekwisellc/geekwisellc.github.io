@@ -93,10 +93,18 @@ body{
       position: relative;
       float: left;
       margin-top: 120px;
-      margin-left:90px;
+      margin-left:100px;
       border: 1px;
       border-style: solid;
       border-radius: 23px;
+      
+  }
+  .btn.btn-outline-success{
+      border: 1px;
+      border-style: solid;
+      border-radius: 23px;
+      text-align: center;
+      margin-left: 23px;
       
   }
 
