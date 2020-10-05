@@ -109,7 +109,14 @@ body{
   }
 
   
+.paypalbutton{
+width: min-content;
+box-sizing: border-box;
+text-align: left;
+-ms-flex: 75%; /* IE10 */
+    flex: 75%;
 
+}
 
 
 /* Change the width of the three columns to 100%
