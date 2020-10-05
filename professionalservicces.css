@@ -110,12 +110,11 @@ body{
 
   
 .paypalbutton{
-width: min-content;
-box-sizing: border-box;
-text-align: left;
--ms-flex: 75%; /* IE10 */
-    flex: 75%;
 
+  border: 2px;
+  border-style: solid;
+  margin-left: 500px;
+  padding-bottom:133px
 }
 
 
