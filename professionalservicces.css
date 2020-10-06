@@ -110,11 +110,11 @@ body{
 
   
 .paypalbutton{
-
+  position: relative;
   border: 2px;
   border-style: solid;
   margin-left: 500px;
-  padding-bottom:133px
+  padding-top:33px
 }
 
 

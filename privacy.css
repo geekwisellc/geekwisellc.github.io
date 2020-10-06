@@ -1,15 +1,9 @@
 html, body 
 { 
-    position:relative;
-    background-color: white;
+ 
+
+    background-color:mintcream;
     max-width: 100%; 
-    margin: 0 auto !important; 
-    float: none !important; 
-    height: 100%;
-   
-    padding: 0;
-    z-index: -1; /* element with greater value sent to front */
-    font-family: Arial, Helvetica, sans-serif;
  
     
 }
@@ -100,6 +94,13 @@ html, body
 .body{
     margin-left: 48px;
     font-size: 12pt;
+    color: darkgray;
+   
+}
+.body-list{
+    margin-left: 48px;
+    font-size: 12pt;
+    color: slategrey;
    
 }
 
@@ -109,13 +110,33 @@ hr.solid {
   }
 
   .footer{
-    background-color:rgba(255, 255, 255, 0.931);
-    padding: 100px;
-    text-align: center;
+    background-color:rgb(240, 240, 240);
+    padding: 25px;
+  
+   text-align: center;
     color: black
     
   }
-  .footer-contact.a:hover{
-    color: lightgray;
+  .footer-faq{
+
+    color:gray;
+    text-align: center;
+    
+
+  }
+  .footer-faq:hover{
+
+    color:black;
+    text-align: center;
+    
+
+  }
+  .footer-sub{
+    color: gray;
+    text-align: center;
+  }
+  .footer-sub:hover{
+    color: black;
+    text-align: center;
 
   }
