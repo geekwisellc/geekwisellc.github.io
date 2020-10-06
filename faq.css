@@ -3,7 +3,7 @@ html, body
 
     background-color:mintcream;
     max-width: 100%; 
-    height: 100%;
+   
     
    
 }
@@ -46,3 +46,86 @@ html, body
    
 
 }
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    left:0%;
+    width: -200px;
+    display: flex;
+    flex-direction: column;
+   
+ }
+
+ .icon-bar a{
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 10px;
+   font-size: 22px;
+   font-family: sans-serif;
+   margin: 2px;
+   text-align: right;
+   border-radius: 0px 50px 50px 0px;
+   transform: translate(-130px, 0px);
+   transition: all 0.5s;
+   z-index: 3;
+ }
+ 
+ /* Style the icon bar links */
+ .icon-bar a i {
+   margin-left:125px ;
+   background-color: white;
+   height: 40px;
+   width: 40px;
+   color: black;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   transition: all 0.5s;
+  
+ }
+ 
+ /* Style the social media icons with color, if you want */
+ .icon-bar a:hover {
+   transform: translate(0px, 0px);
+   background-color: white;
+ }
+
+ .icon-bar a:hover i {
+  transform: rotate(360deg);
+
+
+
+ 
+ .twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ 
+ 
+ .linkedin {
+   background: #007bb5;
+   
+ }
+
+ .instagram  {
+   background:rgb(131, 13, 131);
+   color:purple;
+ 
+ }
+ 
+
+ 
+ .youtube {
+   background: #bb0000;
+   color: white;
+ } 
+
+
+
+ 
+
+
+ 
+
+ 
