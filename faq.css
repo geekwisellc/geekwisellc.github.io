@@ -1,11 +1,16 @@
-html, body 
+body,html
 { 
 
     background-color:mintcream;
-    max-width: 100%; 
+    
    
     
    
+}
+.faq{
+  margin-top: 2%;;
+  text-align: center;
+  background-color: mintcream;
 }
 .aboutcard{
     position: relative;
