@@ -1,7 +1,10 @@
 
-* {
-max-width: 100%;
+.body,html {
+  width: 100%;
+  
+  margin: 0, auto;
   box-sizing: border-box;
+  padding: 0%;
   background-color: mintcream;
 }
 
@@ -11,7 +14,7 @@ max-width: 100%;
   font-weight: bolder;
 }
 
-input[type=text], select, .textarea {
+input, select, textarea {
   float: right;
   margin-right: 50px;
   margin-top: 15px;
@@ -49,22 +52,37 @@ input[type=submit]:hover {
 
 /* Style the submit button with a specific background color etc */
 .btn.btn-outline-success {
-
-  width: 25%;
-   margin-top: 25px;
-  margin-left: 520px;
- border-radius: 33px;
-  
+  width: 11%;
+  margin: 0;
+  position: absolute;
+  top: 450px;
+  left: 55%;
+  border: 1px;
+  border-style: solid;
+  border-radius: 23px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   
   
    cursor: pointer;
  }
+ .contact-buttons{
+
+    margin-top: 50px;
+ 
+  }
  .btn.btn-outline-secondary{
 
-   width: 25%;
-   margin-top: 14px;
-   margin-left: 520px;
-   border-radius: 33px;
+  margin: 0;
+  position: absolute;
+  top: 540px;
+  left: 55%;
+  border: 1px;
+  border-style: solid;
+  border-radius: 23px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   border-radius: 23px;
  }
 
 /* Clear floats after the columns */
@@ -76,11 +94,18 @@ input[type=submit]:hover {
 
 
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
   }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+  .btn.btn-outline-secondary, .btn.btn-outline-success {
+   
+    flex-direction: column-reverse;
+  }
+
 }
  
