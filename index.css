@@ -13,7 +13,12 @@ html, body
  
     
 }
+.bi.bi-headset{
+    position: relative;
+    float: right;
+    margin-top: 13px;
 
+}
 .img
 {
     position:static;
@@ -21,7 +26,7 @@ html, body
     height: 100%;
     margin:0;
     padding:0px;
-    z-index: -1;
+    z-index: 5;
    
   
   
@@ -39,11 +44,11 @@ html, body
 
 
 .navhead{
-    position: fixed;
+    position: relative;
     background-color:white;
     width: 100%;;
-    padding: 23px;
-    z-index: 4;   /* element with lesser value sent to back*/
+    padding: 45px;
+    z-index: 2;   /* element with lesser value sent to back*/
     
  }
  .nav-item, .nav-link,.nav.justify-content-center{
@@ -108,12 +113,10 @@ hr.solid {
   }
 
   .footer{
-    position: sticky;
     background-color:rgba(255, 255, 255, 0.931);
-    padding: 300px;
+    padding: 200px;
    text-align: center;
-    color: black;
-    z-index:2;
+    color: black
     
   }
   .footer-faq{
@@ -143,12 +146,11 @@ hr.solid {
  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
  .icon-bar {
      position: fixed;
-     top: 15%;
+     top: 30%;
      left:0%;
      width: -200px;
      display: flex;
      flex-direction: column;
-     z-index: 3;
     
   }
 
