@@ -116,12 +116,49 @@ body{
   margin-left: 500px;
   padding-top:33px
 }
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
 
+.footer{
+  background-color:rgba(255, 255, 255, 0.931);
+  padding: 540px;
+ text-align: center;
+  color: black
+  
+}
+.footer-faq{
+
+  color: lightgray;
+  text-align: center;
+  
+
+}
+.footer-faq:hover{
+
+  color:black;
+  text-align: center;
+  
+
+}
+.footer-sub{
+  color: gainsboro;
+  text-align: center;
+}
+.footer-sub:hover{
+  color: black;
+  text-align: center;
+
+}
 
 /* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
   .columns {
+    width: 100%;
+  }
+  .carousel.slide{
     width: 100%;
   }
 }
