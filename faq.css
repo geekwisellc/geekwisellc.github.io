@@ -1,4 +1,4 @@
-body,html
+body
 { 
 
     background-color:mintcream;
@@ -12,7 +12,13 @@ body,html
   text-align: center;
   background-color: mintcream;
 }
-.aboutcard{
+.maintitle{
+  color: black;
+}
+.subtitle{
+  color: silver;
+}
+.faq-contact{
     position: relative;
     width: 100%;
     margin-top: 55px;
@@ -22,17 +28,21 @@ body,html
     
 }
 
-.missioncard{
+.faq-jobseekers{
     position: relative;
     width: 100%;
     margin-top: 55px;
   
     text-align: center;
-    color: black;
+    color: silver
    
 }
+.body{
+  color: black;
+  font-size: 18pt;
+}
 
-.surveycard{
+.faq-survey{
     position: relative;
     width: 100%;
     margin-top: 55px;
