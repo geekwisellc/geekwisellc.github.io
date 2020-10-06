@@ -112,11 +112,17 @@ hr.solid {
     border-top: 3px solid #bbb;
   }
 
-  #footer
-  {
-      background-color: rgba(0, 0, 0, 0.925);
+  .footer{
+    background-color:rgba(255, 255, 255, 0.931);
+    padding: 100px;
+    text-align: center;
+    color: black
+    
   }
- 
+  .footer-contact.a:hover{
+    color: lightgray;
+
+  }
 
  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
  .icon-bar {
