@@ -10,7 +10,7 @@ body
 .faq{
   margin-top: 2%;;
   text-align: center;
-  background-color: mintcream;
+  
 }
 .maintitle{
   color: black;
@@ -79,6 +79,41 @@ body
 .btn.btn-outline-secondary,.btn.btn-outline-success{
     border-radius: 23px;
    
+
+}
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.footer{
+  background-color:rgba(255, 255, 255, 0.931);
+  padding: 180px;
+ text-align: center;
+  color: black
+  
+}
+.footer-faq{
+
+  color: lightgray;
+  text-align: center;
+  
+
+}
+.footer-faq:hover{
+
+  color:black;
+  text-align: center;
+  
+
+}
+.footer-sub{
+  color: gainsboro;
+  text-align: center;
+}
+.footer-sub:hover{
+  color: black;
+  text-align: center;
 
 }
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
@@ -154,48 +189,4 @@ body
  .youtube {
    background: #bb0000;
    color: white;
- } 
- footer{
-  background-color:rgba(255, 255, 255, 0.931);
-  padding: 180px;
- text-align: center;
-  color: black
-  
-}
-.footer-faq{
-
-  color: lightgray;
-  text-align: center;
-  
-
-}
-.footer-faq:hover{
-
-  color:black;
-  text-align: center;
-  
-
-}
-.footer-sub{
-  color: gainsboro;
-  text-align: center;
-}
-.footer-sub:hover{
-  color: black;
-  text-align: center;
-
-}
-
- 
-
-
- 
-
-
-
- 
-
-
- 
-
  
