@@ -32,12 +32,20 @@ html, body
 
 .label{
     position: absolute;
+    
     text-align: center;
-    top: 40%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 55px;
     
+}
+@media (min-width: 600px) {
+  .label-mobile { display: none; margin-top: 133px; }
+}
+
+@media (max-width: 599px) {
+  .label-desktop { display: none; margin-top: 133px; }
 }
 
 
@@ -45,7 +53,7 @@ html, body
    float: right;
     background-color:white;
     width: 100%;;
-    padding: 5%;
+    padding: 1%;
    
     
  }
@@ -91,20 +99,7 @@ html, body
 
 
 
-.p1{
-    position: relative;
-    margin-top: 90px;;
-    width: 100%;
-    padding-top: 20px;
-   
-   
-    text-align: center;
-}
 
-.bi.bi-envelope-fill{
-    color: black;
-    margin-top: 122px;
-}
 
 /* Solid border */
 hr.solid {
